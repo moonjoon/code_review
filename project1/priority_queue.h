@@ -10,7 +10,7 @@ class TemplatePriorityQueue {
 		template <typename T> const T& Top() const;
 		template <typename T> int Size() const;
 		template <typename T> void Push(const T&);
-		template <typename T> oid Pop();	
+		template <typename T> void Pop();	
 	private:
 		std::priority_queue<T> storage;
 };
