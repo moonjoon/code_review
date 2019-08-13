@@ -19,7 +19,7 @@ void popQueue(templatePriorityQueue<T>* Que){
 
 int main(int argc, char* argv[]){
 	templatePriorityQueue<int> priQueue;
-	int customNumber = 0;
+	int custom_Number_ = 0;
 
 	//empty check
 	if(priQueue.empty()){
