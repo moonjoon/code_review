@@ -17,4 +17,4 @@ class TemplatePriorityQueue {
 	private:
 		std::priority_queue<T> storage;
 };
-#endif
+#endif // PRIORITY_QUEUE_H_
