@@ -15,7 +15,7 @@ bool TemplatePriorityQueue<int>::IsEmpty() const{
 }
 
 template <>
-int TemplatePriorityQueue<int>::Size() {
+int TemplatePriorityQueue<int>::Size() const {
         return storage.size();
 }
 
