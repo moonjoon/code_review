@@ -1,5 +1,8 @@
 /* Copyright (c) 2019 moonjoon.ko All rights reserved. */
 
+#ifndef _QUEUE_H
+#define _QUEUE_H
+
 #include <queue>
 
 class TemplatePriorityQueue {
@@ -14,3 +17,4 @@ class TemplatePriorityQueue {
 	private:
 		std::priority_queue<T> storage;
 };
+#endif
