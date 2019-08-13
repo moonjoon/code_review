@@ -7,7 +7,7 @@ class TemplatePriorityQueue {
 	public:
 		TemplatePriorityQueue();
 		~TemplatePriorityQueue();
-		bool Empty() const;
+		bool IsEmpty() const;
 		const T& Top() const;
 		int Size();
 		void Push(const T&);
