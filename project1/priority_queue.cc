@@ -10,26 +10,26 @@ TemplatePriorityQueue<int>::~templatePriorityQueue(){
 }
 
 template <>
-bool TemplatePriorityQueue<int>::empty() const{
+bool TemplatePriorityQueue<int>::Empty() const{
         return storage.empty();
 }
 
 template <>
-int TemplatePriorityQueue<int>::size() {
+int TemplatePriorityQueue<int>::Size() {
         return storage.size();
 }
 
 template <>
-const int& TemplatePriorityQueue<int>::top() const{
+const int& TemplatePriorityQueue<int>::Top() const{
         return storage.top();
 }
 
 template <>
-void TemplatePriorityQueue<int>::pop(){
+void TemplatePriorityQueue<int>::Pop(){
         storage.pop();
 }
 
 template <>
-void TemplatePriorityQueue<int>::push(const int& val){
+void TemplatePriorityQueue<int>::Push(const int& val){
         storage.push(val);
 }
