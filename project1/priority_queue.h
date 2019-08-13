@@ -2,7 +2,6 @@
 
 #include <queue>
 
-template <typename T> 
 class TemplatePriorityQueue {
 	public:
 		TemplatePriorityQueue();
