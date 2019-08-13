@@ -7,11 +7,11 @@ class TemplatePriorityQueue {
 	public:
 		TemplatePriorityQueue();
 		~TemplatePriorityQueue();
-		bool empty() const;
-		const T& top() const;
-		int size();
-		void push(const T&);
-		void pop();	
+		bool Empty() const;
+		const T& Top() const;
+		int Size();
+		void Push(const T&);
+		void Pop();	
 	private:
 		std::priority_queue<T> storage;
 };
