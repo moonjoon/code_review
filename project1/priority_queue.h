@@ -1,7 +1,7 @@
 /* Copyright (c) 2019 moonjoon.ko All rights reserved. */
 
-#ifndef _QUEUE_H
-#define _QUEUE_H
+#ifndef _PRIORITY_QUEUE_H
+#define _PRIORITY_QUEUE_H
 
 #include <queue>
 
