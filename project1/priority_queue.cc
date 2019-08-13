@@ -10,7 +10,7 @@ TemplatePriorityQueue<int>::~templatePriorityQueue(){
 }
 
 template <>
-bool TemplatePriorityQueue<int>::Empty() const{
+bool TemplatePriorityQueue<int>::IsEmpty() const{
         return storage.empty();
 }
 
